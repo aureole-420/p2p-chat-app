@@ -1,5 +1,18 @@
 # p2p-chat-app
 
+## Features:
+1. Simultaneous single/multi-chatter chatrooms
+2. Asychronous message passing
+3. Handling of various of message types, e.g., text, image, mp3, simple games ---- most importantly a receiver can ultimately handle a message type originally unknown to him/her.
+
+## Technical Overview:
+* Java RMI
+* MVC pattern
+* Extended visitor pattern
+* Command dispatching pattern
+* Java multithreading
+
+
 Instructions:
 * run ChatAppController.launch to start the app.
 * IGNORE WORKING MODE panel and TESTING panel, unless you are going to run two ChatApp simultaneously on the same machine.
